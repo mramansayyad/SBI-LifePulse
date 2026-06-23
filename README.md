@@ -98,6 +98,24 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
+## 📸 Interface Preview Gallery
+
+Here is a visual walkthrough of the premium, liquid glassmorphic design:
+
+### 1. Hero Landing Page
+![Hero Landing Page](images/landing.png)
+
+### 2. Banker Dashboard (Collapsible & Fully Responsive)
+![Banker Dashboard](images/dashboard.png)
+
+### 3. Customer 360 & Conversation Sandbox — Priya Sharma (💍 Marriage Milestone)
+![Priya Sharma - Marriage Milestone](images/demo_priya_sharma.png)
+
+### 4. Customer 360 & Conversation Sandbox — Rahul Mehta (🚀 Job Change Milestone)
+![Rahul Mehta - Job Change Milestone](images/demo_Rahul_Mehta.png)
+
+---
+
 ## 🤖 How the AI Works: Event Detection Flow
 
 1. **Transaction Signal Scanner (BigQuery Service):** Scans a client's 6-month transaction logs to identify salary trends, category spending increases (e.g. jewelry, baby care, builders), and new recurring debits (EMIs, premiums).
