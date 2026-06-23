@@ -16,7 +16,7 @@ class GeminiService:
         else:
             try:
                 genai.configure(api_key=self.api_key)
-                self.model_name = "gemini-2.0-flash"
+                self.model_name = "gemini-3.5-flash"
                 logger.info(f"GeminiService initialized with api_key: {self.api_key[:5]}... using model: {self.model_name}")
             except Exception as e:
                 logger.error(f"Error configuring Gemini SDK: {e}. Falling back to MOCK MODE.")
@@ -29,7 +29,7 @@ class GeminiService:
         json_mode: bool = False
     ) -> str:
         """
-        Calls Gemini 2.0 Flash to generate content.
+        Calls Gemini 3.5 Flash to generate content.
         If in mock mode, returns a simulated JSON or text based on the prompt content.
         """
         if self.is_mock:
@@ -42,7 +42,7 @@ class GeminiService:
             
             # Configure model
             model = genai.GenerativeModel(
-                model_name="gemini-2.0-flash",
+                model_name="gemini-3.5-flash",
                 generation_config=generation_config if generation_config else None,
                 system_instruction=system_instruction
             )

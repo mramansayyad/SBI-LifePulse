@@ -29,7 +29,7 @@ class LifeEventAgent:
         Runs the multi-layer detection pipeline for a customer:
         1. Extract behavioral signals from BigQuery.
         2. Heuristic ML classification via Vertex AI.
-        3. Generates refined classification and hooks using Gemini 2.0 Flash.
+        3. Generates refined classification and hooks using Gemini 3.5 Flash.
         4. Saves and returns the LifeEventDetection result.
         """
         logger.info(f"Triggering life event detection for customer: {customer_id}")

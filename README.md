@@ -39,7 +39,7 @@ Furthermore, traditional banking campaigns rely on generic SMS or email blasts. 
 │           │                                                 │
 │           ▼                                                 │
 │  [Conversational Banking Agent - Arya]                      │
-│    - Chat sandbox using Gemini 2.0 Flash                    │
+│    - Chat sandbox using Gemini 3.5 Flash                    │
 │    - Computes EMIs/SIPs, books RM appointments             │
 │           │                                                 │
 │           ▼                                                 │
@@ -102,7 +102,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 1. **Transaction Signal Scanner (BigQuery Service):** Scans a client's 6-month transaction logs to identify salary trends, category spending increases (e.g. jewelry, baby care, builders), and new recurring debits (EMIs, premiums).
 2. **Heuristic ML Classifier (Vertex Service):** Groups signals to create a probability distribution over milestones.
-3. **Agent Refinement (Gemini Agent):** Feeds signals to Gemini 2.0 Flash to finalize event classification, evaluate confidence, and draft an empathetic personalized campaign starting message.
+3. **Agent Refinement (Gemini Agent):** Feeds signals to Gemini 3.5 Flash to finalize event classification, evaluate confidence, and draft an empathetic personalized campaign starting message.
 4. **conversational Bot (Arya):** Receives the context and interacts via chat. It exposes calculations (EMIs, SIP values) and RM scheduling via tool calls.
 
 ---
@@ -128,7 +128,7 @@ The system comes pre-packaged with 10 customer personas representing different m
 
 | Layer | Google Technology | Why It Was Selected |
 |---|---|---|
-| **AI Agent Brain** | Gemini 2.0 Flash | Ultra-low latency, native tool calling, and high-fidelity structured JSON output. |
+| **AI Agent Brain** | Gemini 3.5 Flash | Ultra-low latency, native tool calling, and high-fidelity structured JSON output. |
 | **Pipeline Scans** | BigQuery | Scales to analyze millions of transaction records instantly. |
 | **Classifiers** | Vertex AI AutoML | High accuracy structured data classification for milestone prediction. |
 | **Database** | Firebase Firestore | Real-time database updates for instant alert syncing on the banker screen. |

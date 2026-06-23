@@ -18,7 +18,7 @@ export default function Home() {
         method: "POST"
       });
       if (response.ok) {
-        setStatus("Verifying life event patterns with Gemini 2.0 Flash...");
+        setStatus("Verifying life event patterns with Gemini 3.5 Flash...");
         setTimeout(() => {
           setStatus("Generating hyper-personalized engagement plans...");
           setTimeout(() => {

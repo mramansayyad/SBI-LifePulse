@@ -211,7 +211,7 @@ class ConversationAgent:
 
     async def _generate_live_reply(self, customer: CustomerProfile, message: str, history: List[Dict[str, Any]]) -> str:
         """
-        Using Gemini 2.0 API with system instruction.
+        Using Gemini 3.5 Flash API with system instruction.
         For simplicity and absolute robustness during the hackathon, we simulate function calling
         using direct text analysis or system prompt, but can also run Gemini API calls.
         Let's construct a prompt containing the conversation context, history, and system instructions.
