@@ -4,6 +4,24 @@
 
 ---
 
+## 📸 Interface Preview Gallery
+
+Here is a visual walkthrough of the premium, liquid glassmorphic design:
+
+### 1. Hero Landing Page
+![Hero Landing Page](images/landing.png)
+
+### 2. Banker Dashboard (Collapsible & Fully Responsive)
+![Banker Dashboard](images/dashboard.png)
+
+### 3. Customer 360 & Conversation Sandbox — Priya Sharma (💍 Marriage Milestone)
+![Priya Sharma - Marriage Milestone](images/demo_priya_sharma.png)
+
+### 4. Customer 360 & Conversation Sandbox — Rahul Mehta (🚀 Job Change Milestone)
+![Rahul Mehta - Job Change Milestone](images/demo_Rahul_Mehta.png)
+
+---
+
 ## 🎯 Problem: The Engagement Gap in Indian Banking
 
 SBI serves over 500 million customers, making it the financial backbone of India. Yet, in modern retail banking, over **98% of high-value cross-sell and relationship opportunities are missed** because banks are strictly reactive. By the time a customer searches for a home loan, applies for child education funding, or looks up mutual fund options online, they have already evaluated third-party Fintechs. Outreach happens too late, if at all.
@@ -95,24 +113,6 @@ npm install
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 📸 Interface Preview Gallery
-
-Here is a visual walkthrough of the premium, liquid glassmorphic design:
-
-### 1. Hero Landing Page
-![Hero Landing Page](images/landing.png)
-
-### 2. Banker Dashboard (Collapsible & Fully Responsive)
-![Banker Dashboard](images/dashboard.png)
-
-### 3. Customer 360 & Conversation Sandbox — Priya Sharma (💍 Marriage Milestone)
-![Priya Sharma - Marriage Milestone](images/demo_priya_sharma.png)
-
-### 4. Customer 360 & Conversation Sandbox — Rahul Mehta (🚀 Job Change Milestone)
-![Rahul Mehta - Job Change Milestone](images/demo_Rahul_Mehta.png)
 
 ---
 
