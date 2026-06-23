@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+/* Premium Apple Liquid Glassmorphism Design System */
+
+/* Liquid Mesh Animated Background Canvas */
+.liquid-mesh-bg {
+  position: relative;
+  background-color: #0b1120;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(27, 79, 142, 0.4) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(247, 148, 29, 0.25) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(59, 130, 246, 0.3) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(27, 79, 142, 0.3) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(247, 148, 29, 0.2) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: liquid-flow 20s ease infinite;
+}
+
+@keyframes liquid-flow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* High-fidelity Glassmorphic Cards */
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 
+    0 4px 30px rgba(0, 0, 0, 0.03),
+    inset 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.glass-card-light-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card-light-hover:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.55);
+  box-shadow: 
+    0 12px 40px rgba(27, 79, 142, 0.08),
+    inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.glass-card-dark {
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 4px 30px rgba(0, 0, 0, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.08);
+}
+
+/* Apple Buttons */
+.apple-btn-primary {
+  background: #1B4F8E;
+  color: white;
+  border-radius: 980px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(27, 79, 142, 0.25);
+}
+.apple-btn-primary:hover {
+  background: #153c6e;
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(27, 79, 142, 0.35);
+}
+.apple-btn-primary:active {
+  transform: scale(0.98);
+}
+
+.apple-btn-secondary {
+  background: rgba(255, 255, 255, 0.7);
+  color: #1B4F8E;
+  border: 1px solid rgba(27, 79, 142, 0.15);
+  border-radius: 980px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.apple-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(27, 79, 142, 0.3);
+  transform: scale(1.02);
+}
+.apple-btn-secondary:active {
+  transform: scale(0.98);
+}
+
+.apple-btn-orange {
+  background: #F7941D;
+  color: white;
+  border-radius: 980px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(247, 148, 29, 0.25);
+}
+.apple-btn-orange:hover {
+  background: #d97d12;
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(247, 148, 29, 0.35);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(203, 213, 225, 0.6);
+  border-radius: 980px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(161, 161, 170, 0.8);
+}
+
+/* Animation Utilities */
+@keyframes pulse-orange-glow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(247, 148, 29, 0.5);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 10px rgba(247, 148, 29, 0);
+  }
+}
+
+.pulse-glowing-orange {
+  animation: pulse-orange-glow 2.5s infinite;
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-up {
+  animation: slide-in-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Line-height adjustment to prevent overlaps */
+.prevent-overlap {
+  line-height: 1.5;
+  word-wrap: break-word;
+}

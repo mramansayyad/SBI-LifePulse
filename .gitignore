@@ -1,0 +1,65 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_packages/
+frontend/node_modules/
+
+# Next.js Build Output
+.next/
+out/
+frontend/.next/
+frontend/out/
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+env/
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+frontend/.env.local
+__pycache__/
+backend/__pycache__/
+backend/agents/__pycache__/
+backend/services/__pycache__/
+backend/models/__pycache__/
+backend/routers/__pycache__/
+backend/utils/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Databases & local seeds
+data/local_db.json
+backend/data/local_db.json
+local_db.json
+
+# Service Account Keys / Private credentials
+*.json
+!data/life_events_schema.json
+!data/sample_customers.json
+!data/sample_transactions.json
+!frontend/package.json
+!frontend/next.config.js
+!frontend/tailwind.config.js
+!frontend/postcss.config.js
+!firebase.json
+!firestore.rules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db

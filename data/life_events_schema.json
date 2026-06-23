@@ -1,0 +1,75 @@
+{
+  "life_events": [
+    {
+      "event": "MARRIAGE",
+      "description": "Wedding prep, jewelry purchases, honeymoon bookings, and joint financial activities.",
+      "recommended_products": [
+        "SBI Happy Home Loan",
+        "SBI Joint Savings Account",
+        "SBI Life - Smart Shield (Term Life Insurance)"
+      ]
+    },
+    {
+      "event": "JOB_CHANGE",
+      "description": "Significant salary increase, employer change, LinkedIn subscription, or professional upgrades.",
+      "recommended_products": [
+        "SBI Wealth Savings Account",
+        "SBI Card ELITE (Premium Credit Card)",
+        "SBI Mutual Fund SIP (Systematic Investment Plan)"
+      ]
+    },
+    {
+      "event": "NEW_BABY",
+      "description": "Hospitalization, maternity insurance, baby shops (Firstcry, Mothercare), and baby supplies.",
+      "recommended_products": [
+        "SBI Life - Smart Champ Insurance (Child Education Plan)",
+        "SBI Mutual Fund Child Fund",
+        "SBI Family Floater Health Insurance"
+      ]
+    },
+    {
+      "event": "HOME_PURCHASE",
+      "description": "Large builder/registry payments, interior decoration shops, and property registration fees.",
+      "recommended_products": [
+        "SBI Home Loan",
+        "SBI Home Shield Insurance",
+        "SBI Suraksha (Home Loan Protection Plan)"
+      ]
+    },
+    {
+      "event": "PRE_RETIREMENT",
+      "description": "Declining salary credits, pension fund research, increased medical spending, and pilgrimage travel.",
+      "recommended_products": [
+        "SBI Senior Citizen Savings Scheme (SCSS)",
+        "SBI Annuity Deposit Scheme",
+        "SBI Fixed Deposit Laddering"
+      ]
+    },
+    {
+      "event": "SALARY_HIKE",
+      "description": "Salary increase of 10-25% without a change in the employer NEFT credit source.",
+      "recommended_products": [
+        "SBI Flexi Savings Scheme",
+        "SBI Magnum Midcap Mutual Fund SIP",
+        "SBI Card Prime"
+      ]
+    },
+    {
+      "event": "TRAVEL_PHASE",
+      "description": "Sustained high travel expenditure including flights, hotels, and foreign exchange.",
+      "recommended_products": [
+        "SBI Card miles",
+        "SBI Multi-Currency Travel Card",
+        "SBI Travel Insurance"
+      ]
+    },
+    {
+      "event": "NONE",
+      "description": "Steady-state transaction pattern without any outstanding life events.",
+      "recommended_products": [
+        "SBI General Savings Account",
+        "SBI Regular Fixed Deposit"
+      ]
+    }
+  ]
+}
