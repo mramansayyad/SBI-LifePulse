@@ -51,14 +51,14 @@ Furthermore, traditional banking campaigns rely on generic SMS or email blasts. 
 │       (Marriage / Job Change / Baby / Home Search)          │
 │           │                                                 │
 │           ▼                                                 │
-│  [Gemini Agentic Orchestrator]  ◄──── Customer Profile DB  │
+│  [Gemini Agentic Orchestrator]  ◄──── Customer Profile DB   │
 │    - Generates personalized WhatsApp hook message           │
 │    - Selects matches and priorities                         │
 │           │                                                 │
 │           ▼                                                 │
 │  [Conversational Banking Agent - Arya]                      │
 │    - Chat sandbox using Gemini 3.5 Flash                    │
-│    - Computes EMIs/SIPs, books RM appointments             │
+│    - Computes EMIs/SIPs, books RM appointments              │
 │           │                                                 │
 │           ▼                                                 │
 │  [SBI Banker Dashboard]                                     │
